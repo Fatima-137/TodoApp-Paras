@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: #f2f2f2;
+    overflow: auto;
+}
+.container{
+    text-align: center;
+    width: 450px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url(background-todo-app.png);
+} 
+h1{ 
+    text-align: center; 
+    margin: 5%; 
+    font-size: 3rem; 
+} 
+ul { 
+   text-align: left; 
+   padding-left: 10%; 
+   padding: 7%; 
+   font-size: 2rem; 
+   list-style: circle; 
+ } 
+input{
+    width: 250px;
+    padding: 3px;
+}
+button{
+    padding: 3px;
+}
+.btn{
+    margin-left: 20px;
+    width: 50px;
+}
+input, .btn{
+    display: inline-block;
+}
+
+
+ 
